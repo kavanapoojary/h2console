@@ -1,0 +1,56 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+    font-family: Arial, sans-serif;
+  }
+  
+  .person-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .person-table th, .person-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .person-table th {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  .person-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .person-table tr:hover {
+    background-color: #ddd;
+  }
+  
+  .person-table td {
+    color: #555;
+  }
+  
+  /* Button styling */
+  .login-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .login-button:hover {
+    background-color: #45a049;
+  }
+  
